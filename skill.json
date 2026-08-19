@@ -1,0 +1,35 @@
+{
+  "name": "genpark-high-converting-social-ad-copy-variant-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Viral high-converting multi-platform social media ad copy & creative variant synthesizer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "social-ad-copy",
+    "ad-variants",
+    "conversion-optimizer",
+    "growth-marketing",
+    "ph-august-dev"
+  ],
+  "inputs": {
+    "product_value_prop": {
+      "type": "string"
+    },
+    "target_audience": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "ad_variants": {
+      "type": "array"
+    },
+    "predicted_ctr_pct": {
+      "type": "number"
+    },
+    "hook_style": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
